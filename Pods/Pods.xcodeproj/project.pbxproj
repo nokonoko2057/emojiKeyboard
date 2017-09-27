@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BB5B97DCFE9B22B7007AF048B837E18 /* Pods-Keyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 500BF84972B410EC29695D9DA72EDB00 /* Pods-Keyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DDF20FE200DF49408465DB996F87072 /* AGEmojiKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E1B4E0B2F0711C267C97DEB71E8135 /* AGEmojiKeyboard-dummy.m */; };
+		1F9E509ABF05E820557AB0E9705347B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		36D43E8B09CCE08BD2168E2A7C15CDB0 /* AGEmojiKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC90C472FB1C3CE299EC8E8A4BC8F7DF /* AGEmojiKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		448BAD1B8E36BB59D8740DE710B25D43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5381462779AE3AB481849E693BCCB18E /* AGEmojiKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E210730E926CD9ADE9FCEF4DC76AAF /* AGEmojiKeyBoardView.m */; };
+		547E2796DD8B7E434A49463D6F17AE8A /* AGEmojiPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0323C1C6DB370A54C94E095B39103F3F /* AGEmojiPageView.m */; };
+		582737566F7BE27160DEF0B54AB892D5 /* Pods-KeyboardUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C53C2BBC37E4D572B296D5F777D639 /* Pods-KeyboardUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FB7D77FAB33969FEF275BC7D8732668 /* Pods-KeyboardTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7390B268F86472154384C3CAEC18B5 /* Pods-KeyboardTests-dummy.m */; };
+		79C959A1545C74C917E9E9BD1E1F498E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		86FFA288455CDB1955E6C62AD5BDB445 /* EmojisList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0C6FFA16264F0E0C168AAE02D453BF8 /* EmojisList.plist */; };
+		95CDEE5A2F187B7B24BBB618F3B5089F /* Pods-Keyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA167BE9CB79D54C5965F1284C00D9B /* Pods-Keyboard-dummy.m */; };
+		9D03D870F120C384019786691332683C /* Pods-KeyboardTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F47397D6F065F8893C0373BB75B360 /* Pods-KeyboardTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC7F321879347A3A47CA4CBAD9FAE6A /* Pods-KeyboardUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 185586D8182CADB45C854FBAB0BFD8E4 /* Pods-KeyboardUITests-dummy.m */; };
+		EB2CAF91D83A06ADEFC92CDA984DB8FD /* AGEmojiPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = A230CEFE046A8E7FD22BD167D5658A74 /* AGEmojiPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5DC4558CD7E17B70A58ADF4EB81CB8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F97207772D06501F525175A907CE2981 /* AGEmojiKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C9DAF8E3769EA9F3CED40A3499652D /* AGEmojiKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		920949CB291A0AE720ABC17EA8FD9537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EED7351993DAAA3A69403827255EA3C;
+			remoteInfo = AGEmojiKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0323C1C6DB370A54C94E095B39103F3F /* AGEmojiPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGEmojiPageView.m; path = AGEmojiKeyboard/AGEmojiPageView.m; sourceTree = "<group>"; };
+		0BC2CF0145DD7027DEC4D07DD030C76A /* Pods-Keyboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Keyboard-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BF0C0240527BC6C9280450689D19886 /* Pods_Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Keyboard.framework; path = "Pods-Keyboard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F63CAB12B7EF385970CC3DDF876CD12 /* Pods-KeyboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11AE695A4A3DA719E22EE21DD9076325 /* AGEmojiKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGEmojiKeyboard.xcconfig; sourceTree = "<group>"; };
+		11B4F9924F612AD7BE1D844E0DC6F3DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1780A417A6AB8E28DA9601FEF779C7DB /* Pods-KeyboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		185586D8182CADB45C854FBAB0BFD8E4 /* Pods-KeyboardUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyboardUITests-dummy.m"; sourceTree = "<group>"; };
+		19E1B4E0B2F0711C267C97DEB71E8135 /* AGEmojiKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGEmojiKeyboard-dummy.m"; sourceTree = "<group>"; };
+		2A8DE39F951199DF746823D208B3FC93 /* Pods-KeyboardUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KeyboardUITests.modulemap"; sourceTree = "<group>"; };
+		2AB8089A7956293FA1E507BBFAC249B5 /* AGEmojiKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AGEmojiKeyboard.framework; path = AGEmojiKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC9D9C3FE0F8E3AAE42012DC12B83CB /* Pods-KeyboardTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyboardTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43C8095F044A401C4F27620CB8CE2038 /* AGEmojiKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGEmojiKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		500BF84972B410EC29695D9DA72EDB00 /* Pods-Keyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Keyboard-umbrella.h"; sourceTree = "<group>"; };
+		5A9A6DD20F236F6BEA13963ED9209928 /* Pods-KeyboardTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F898CC1DD513DE28ABCB2A9DE432614 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F5D65319B1C95A17D4301DE24766E13 /* Pods-KeyboardUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyboardUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B7390B268F86472154384C3CAEC18B5 /* Pods-KeyboardTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyboardTests-dummy.m"; sourceTree = "<group>"; };
+		8216A791A5AA180B0AC15D1FB43832BD /* Pods-Keyboard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Keyboard-frameworks.sh"; sourceTree = "<group>"; };
+		87E210730E926CD9ADE9FCEF4DC76AAF /* AGEmojiKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGEmojiKeyBoardView.m; path = AGEmojiKeyboard/AGEmojiKeyBoardView.m; sourceTree = "<group>"; };
+		890B750E3D8AF2AD38579637E0FC8216 /* Pods-KeyboardTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardTests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		985591B1B9BFE007D55268F09382120E /* Pods-KeyboardTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardTests-frameworks.sh"; sourceTree = "<group>"; };
+		9E42F71CB34515D6C6778CE610B56658 /* Pods_KeyboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeyboardUITests.framework; path = "Pods-KeyboardUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDABA9A1E3B4D28A94B15BF65D047F3 /* Pods-Keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Keyboard.release.xcconfig"; sourceTree = "<group>"; };
+		A0C53C2BBC37E4D572B296D5F777D639 /* Pods-KeyboardUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyboardUITests-umbrella.h"; sourceTree = "<group>"; };
+		A230CEFE046A8E7FD22BD167D5658A74 /* AGEmojiPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGEmojiPageView.h; path = AGEmojiKeyboard/AGEmojiPageView.h; sourceTree = "<group>"; };
+		AC7568259905C89002D2346ED5A17366 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC2BF8A8DE0FF8988E49D7BF880A068 /* Pods-Keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Keyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		B4DA16F0726E70527A9295E1B67FFF73 /* AGEmojiKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AGEmojiKeyboard.modulemap; sourceTree = "<group>"; };
+		B98DD01FD67D20CF21111FD608975E64 /* Pods-Keyboard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Keyboard-resources.sh"; sourceTree = "<group>"; };
+		B9F47397D6F065F8893C0373BB75B360 /* Pods-KeyboardTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyboardTests-umbrella.h"; sourceTree = "<group>"; };
+		BBA167BE9CB79D54C5965F1284C00D9B /* Pods-Keyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Keyboard-dummy.m"; sourceTree = "<group>"; };
+		C1C9DAF8E3769EA9F3CED40A3499652D /* AGEmojiKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGEmojiKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		C317B330E10AD114911EDE39FFC5E564 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7ABADA56240CCC6F5C9533759CB1D01 /* Pods-Keyboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Keyboard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEF3037A247EA4F86937263D3B270BD4 /* Pods_KeyboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KeyboardTests.framework; path = "Pods-KeyboardTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DEC610051B7E44C697CB6156C5010B /* Pods-KeyboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3AF937269A0F21429B75CFC318E63DA /* Pods-KeyboardUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E80A8B73B860C251851233F08322F3C7 /* Pods-KeyboardTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KeyboardTests.modulemap"; sourceTree = "<group>"; };
+		EC90C472FB1C3CE299EC8E8A4BC8F7DF /* AGEmojiKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGEmojiKeyBoardView.h; path = AGEmojiKeyboard/AGEmojiKeyBoardView.h; sourceTree = "<group>"; };
+		F0C6FFA16264F0E0C168AAE02D453BF8 /* EmojisList.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = EmojisList.plist; path = Resources/EmojisList.plist; sourceTree = "<group>"; };
+		F0D6338A34967E0F0DCB8306BDDD4CB0 /* Pods-KeyboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2EF9E441C1BDD0DC36D9D20A892767D /* Pods-KeyboardUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardUITests-resources.sh"; sourceTree = "<group>"; };
+		FAFE23A1DDCFF4717694C619BDFBBA50 /* Pods-Keyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Keyboard.modulemap"; sourceTree = "<group>"; };
+		FB3609B16E3A0D2CB540EE49A9713E9D /* Pods-KeyboardUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardUITests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B47518C05D08E0DEE0D52C24B0806A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C959A1545C74C917E9E9BD1E1F498E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650EBAD54F575DE9B7630CACCD106CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9E509ABF05E820557AB0E9705347B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19C03EAEA94DBDA68D17DBD4E9DB390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DC4558CD7E17B70A58ADF4EB81CB8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE47AEA4398C7016B510E849F59FCD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448BAD1B8E36BB59D8740DE710B25D43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18903767C0A8AB2528B9867F76D99C16 /* Pods-KeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11B4F9924F612AD7BE1D844E0DC6F3DF /* Info.plist */,
+				2A8DE39F951199DF746823D208B3FC93 /* Pods-KeyboardUITests.modulemap */,
+				6F5D65319B1C95A17D4301DE24766E13 /* Pods-KeyboardUITests-acknowledgements.markdown */,
+				E3AF937269A0F21429B75CFC318E63DA /* Pods-KeyboardUITests-acknowledgements.plist */,
+				185586D8182CADB45C854FBAB0BFD8E4 /* Pods-KeyboardUITests-dummy.m */,
+				FB3609B16E3A0D2CB540EE49A9713E9D /* Pods-KeyboardUITests-frameworks.sh */,
+				F2EF9E441C1BDD0DC36D9D20A892767D /* Pods-KeyboardUITests-resources.sh */,
+				A0C53C2BBC37E4D572B296D5F777D639 /* Pods-KeyboardUITests-umbrella.h */,
+				0F63CAB12B7EF385970CC3DDF876CD12 /* Pods-KeyboardUITests.debug.xcconfig */,
+				D3DEC610051B7E44C697CB6156C5010B /* Pods-KeyboardUITests.release.xcconfig */,
+			);
+			name = "Pods-KeyboardUITests";
+			path = "Target Support Files/Pods-KeyboardUITests";
+			sourceTree = "<group>";
+		};
+		367B560EB7E34DEAB8CDC2B67F40AB2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0C6FFA16264F0E0C168AAE02D453BF8 /* EmojisList.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5318688FA2C43337F998DB846ADE21AF /* AGEmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC90C472FB1C3CE299EC8E8A4BC8F7DF /* AGEmojiKeyBoardView.h */,
+				87E210730E926CD9ADE9FCEF4DC76AAF /* AGEmojiKeyBoardView.m */,
+				A230CEFE046A8E7FD22BD167D5658A74 /* AGEmojiPageView.h */,
+				0323C1C6DB370A54C94E095B39103F3F /* AGEmojiPageView.m */,
+				367B560EB7E34DEAB8CDC2B67F40AB2C /* Resources */,
+				C2173AEDF4C9AB1C89848D6310B67267 /* Support Files */,
+			);
+			name = AGEmojiKeyboard;
+			path = AGEmojiKeyboard;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8C13505F264DA0DB49A4B5B64D835E02 /* Pods */,
+				A6C187F5990440E0DDD0DE8776A08E18 /* Products */,
+				E3E43AAD85197939857F5E58AAE507C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C13505F264DA0DB49A4B5B64D835E02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5318688FA2C43337F998DB846ADE21AF /* AGEmojiKeyboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99A28568A91A77446A1541739CED1EDE /* Pods-Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AC7568259905C89002D2346ED5A17366 /* Info.plist */,
+				FAFE23A1DDCFF4717694C619BDFBBA50 /* Pods-Keyboard.modulemap */,
+				C7ABADA56240CCC6F5C9533759CB1D01 /* Pods-Keyboard-acknowledgements.markdown */,
+				0BC2CF0145DD7027DEC4D07DD030C76A /* Pods-Keyboard-acknowledgements.plist */,
+				BBA167BE9CB79D54C5965F1284C00D9B /* Pods-Keyboard-dummy.m */,
+				8216A791A5AA180B0AC15D1FB43832BD /* Pods-Keyboard-frameworks.sh */,
+				B98DD01FD67D20CF21111FD608975E64 /* Pods-Keyboard-resources.sh */,
+				500BF84972B410EC29695D9DA72EDB00 /* Pods-Keyboard-umbrella.h */,
+				ADC2BF8A8DE0FF8988E49D7BF880A068 /* Pods-Keyboard.debug.xcconfig */,
+				9EDABA9A1E3B4D28A94B15BF65D047F3 /* Pods-Keyboard.release.xcconfig */,
+			);
+			name = "Pods-Keyboard";
+			path = "Target Support Files/Pods-Keyboard";
+			sourceTree = "<group>";
+		};
+		A6C187F5990440E0DDD0DE8776A08E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8089A7956293FA1E507BBFAC249B5 /* AGEmojiKeyboard.framework */,
+				0BF0C0240527BC6C9280450689D19886 /* Pods_Keyboard.framework */,
+				CEF3037A247EA4F86937263D3B270BD4 /* Pods_KeyboardTests.framework */,
+				9E42F71CB34515D6C6778CE610B56658 /* Pods_KeyboardUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2173AEDF4C9AB1C89848D6310B67267 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4DA16F0726E70527A9295E1B67FFF73 /* AGEmojiKeyboard.modulemap */,
+				11AE695A4A3DA719E22EE21DD9076325 /* AGEmojiKeyboard.xcconfig */,
+				19E1B4E0B2F0711C267C97DEB71E8135 /* AGEmojiKeyboard-dummy.m */,
+				43C8095F044A401C4F27620CB8CE2038 /* AGEmojiKeyboard-prefix.pch */,
+				C1C9DAF8E3769EA9F3CED40A3499652D /* AGEmojiKeyboard-umbrella.h */,
+				C317B330E10AD114911EDE39FFC5E564 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AGEmojiKeyboard";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E3E43AAD85197939857F5E58AAE507C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99A28568A91A77446A1541739CED1EDE /* Pods-Keyboard */,
+				EE5D374401BBB883F47FF99C296B089A /* Pods-KeyboardTests */,
+				18903767C0A8AB2528B9867F76D99C16 /* Pods-KeyboardUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE5D374401BBB883F47FF99C296B089A /* Pods-KeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F898CC1DD513DE28ABCB2A9DE432614 /* Info.plist */,
+				E80A8B73B860C251851233F08322F3C7 /* Pods-KeyboardTests.modulemap */,
+				2FC9D9C3FE0F8E3AAE42012DC12B83CB /* Pods-KeyboardTests-acknowledgements.markdown */,
+				5A9A6DD20F236F6BEA13963ED9209928 /* Pods-KeyboardTests-acknowledgements.plist */,
+				7B7390B268F86472154384C3CAEC18B5 /* Pods-KeyboardTests-dummy.m */,
+				985591B1B9BFE007D55268F09382120E /* Pods-KeyboardTests-frameworks.sh */,
+				890B750E3D8AF2AD38579637E0FC8216 /* Pods-KeyboardTests-resources.sh */,
+				B9F47397D6F065F8893C0373BB75B360 /* Pods-KeyboardTests-umbrella.h */,
+				F0D6338A34967E0F0DCB8306BDDD4CB0 /* Pods-KeyboardTests.debug.xcconfig */,
+				1780A417A6AB8E28DA9601FEF779C7DB /* Pods-KeyboardTests.release.xcconfig */,
+			);
+			name = "Pods-KeyboardTests";
+			path = "Target Support Files/Pods-KeyboardTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FFA5F165205DCC2F45867C600BC335B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB5B97DCFE9B22B7007AF048B837E18 /* Pods-Keyboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE1B37D57835959885D54E2F768C729 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582737566F7BE27160DEF0B54AB892D5 /* Pods-KeyboardUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26359B7C28D7D97E7286CC2EDE6599C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D03D870F120C384019786691332683C /* Pods-KeyboardTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49F6E61C2A5C31E59E66F7C63C3E20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97207772D06501F525175A907CE2981 /* AGEmojiKeyboard-umbrella.h in Headers */,
+				36D43E8B09CCE08BD2168E2A7C15CDB0 /* AGEmojiKeyBoardView.h in Headers */,
+				EB2CAF91D83A06ADEFC92CDA984DB8FD /* AGEmojiPageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D1E1E59836FAF74765987587F23BEEA /* Pods-KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1E8F487BB644800FA03FBC4D541429 /* Build configuration list for PBXNativeTarget "Pods-KeyboardTests" */;
+			buildPhases = (
+				B224D2FDF090902714B84CDE69FCF9AB /* Sources */,
+				B19C03EAEA94DBDA68D17DBD4E9DB390 /* Frameworks */,
+				D26359B7C28D7D97E7286CC2EDE6599C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KeyboardTests";
+			productName = "Pods-KeyboardTests";
+			productReference = CEF3037A247EA4F86937263D3B270BD4 /* Pods_KeyboardTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		486012CE4E56286100D3282BF8060F3A /* Pods-Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9627EC785F286610EDE924A1E263062D /* Build configuration list for PBXNativeTarget "Pods-Keyboard" */;
+			buildPhases = (
+				48B9F6FE1DA9CAC65A9F620EE3850552 /* Sources */,
+				DE47AEA4398C7016B510E849F59FCD48 /* Frameworks */,
+				0FFA5F165205DCC2F45867C600BC335B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A1159D79A399D0AB660B00983F8C66A /* PBXTargetDependency */,
+			);
+			name = "Pods-Keyboard";
+			productName = "Pods-Keyboard";
+			productReference = 0BF0C0240527BC6C9280450689D19886 /* Pods_Keyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60807A3451F50E41D6B39DF474AE0364 /* Pods-KeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600D26908A6514F5700B6A1D1D7BD880 /* Build configuration list for PBXNativeTarget "Pods-KeyboardUITests" */;
+			buildPhases = (
+				6B0CB9DB09C89E4F28B3D12BF91AD7EA /* Sources */,
+				650EBAD54F575DE9B7630CACCD106CC1 /* Frameworks */,
+				7CE1B37D57835959885D54E2F768C729 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KeyboardUITests";
+			productName = "Pods-KeyboardUITests";
+			productReference = 9E42F71CB34515D6C6778CE610B56658 /* Pods_KeyboardUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7EED7351993DAAA3A69403827255EA3C /* AGEmojiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929A612E8DA2295306DB29962E3DD3CE /* Build configuration list for PBXNativeTarget "AGEmojiKeyboard" */;
+			buildPhases = (
+				DA6F0720177F15451B4D573A6A9FDBA4 /* Sources */,
+				02B47518C05D08E0DEE0D52C24B0806A /* Frameworks */,
+				ED49F6E61C2A5C31E59E66F7C63C3E20 /* Headers */,
+				BB320698645F6510D08048933CC94037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGEmojiKeyboard;
+			productName = AGEmojiKeyboard;
+			productReference = 2AB8089A7956293FA1E507BBFAC249B5 /* AGEmojiKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A6C187F5990440E0DDD0DE8776A08E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EED7351993DAAA3A69403827255EA3C /* AGEmojiKeyboard */,
+				486012CE4E56286100D3282BF8060F3A /* Pods-Keyboard */,
+				0D1E1E59836FAF74765987587F23BEEA /* Pods-KeyboardTests */,
+				60807A3451F50E41D6B39DF474AE0364 /* Pods-KeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB320698645F6510D08048933CC94037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FFA288455CDB1955E6C62AD5BDB445 /* EmojisList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48B9F6FE1DA9CAC65A9F620EE3850552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CDEE5A2F187B7B24BBB618F3B5089F /* Pods-Keyboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0CB9DB09C89E4F28B3D12BF91AD7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC7F321879347A3A47CA4CBAD9FAE6A /* Pods-KeyboardUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224D2FDF090902714B84CDE69FCF9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB7D77FAB33969FEF275BC7D8732668 /* Pods-KeyboardTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6F0720177F15451B4D573A6A9FDBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDF20FE200DF49408465DB996F87072 /* AGEmojiKeyboard-dummy.m in Sources */,
+				5381462779AE3AB481849E693BCCB18E /* AGEmojiKeyBoardView.m in Sources */,
+				547E2796DD8B7E434A49463D6F17AE8A /* AGEmojiPageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A1159D79A399D0AB660B00983F8C66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGEmojiKeyboard;
+			target = 7EED7351993DAAA3A69403827255EA3C /* AGEmojiKeyboard */;
+			targetProxy = 920949CB291A0AE720ABC17EA8FD9537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C9EC67D87CEA69057FEF4DB788325B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EDABA9A1E3B4D28A94B15BF65D047F3 /* Pods-Keyboard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Keyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Keyboard/Pods-Keyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Keyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1386B00AEE877984D375D1EF856588E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC2BF8A8DE0FF8988E49D7BF880A068 /* Pods-Keyboard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Keyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Keyboard/Pods-Keyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Keyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1F8EC285009B9E68F0F8CE162444F3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11AE695A4A3DA719E22EE21DD9076325 /* AGEmojiKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGEmojiKeyboard/AGEmojiKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGEmojiKeyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGEmojiKeyboard/AGEmojiKeyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AGEmojiKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73A89708369D07EDA36678155F3DE667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1780A417A6AB8E28DA9601FEF779C7DB /* Pods-KeyboardTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardTests/Pods-KeyboardTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KeyboardTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77920BC4C19E82D7F42D12FE07E5765D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11AE695A4A3DA719E22EE21DD9076325 /* AGEmojiKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGEmojiKeyboard/AGEmojiKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGEmojiKeyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGEmojiKeyboard/AGEmojiKeyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AGEmojiKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CADDEF76BDEDBF2683414BBB64DA599B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DEC610051B7E44C697CB6156C5010B /* Pods-KeyboardUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardUITests/Pods-KeyboardUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KeyboardUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D27C48829A0A294B251E0CB263D0D6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D6338A34967E0F0DCB8306BDDD4CB0 /* Pods-KeyboardTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardTests/Pods-KeyboardTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KeyboardTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F52482F0D0B582D9394838F5F3604AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F63CAB12B7EF385970CC3DDF876CD12 /* Pods-KeyboardUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardUITests/Pods-KeyboardUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KeyboardUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1E8F487BB644800FA03FBC4D541429 /* Build configuration list for PBXNativeTarget "Pods-KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27C48829A0A294B251E0CB263D0D6B3 /* Debug */,
+				73A89708369D07EDA36678155F3DE667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600D26908A6514F5700B6A1D1D7BD880 /* Build configuration list for PBXNativeTarget "Pods-KeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52482F0D0B582D9394838F5F3604AA3 /* Debug */,
+				CADDEF76BDEDBF2683414BBB64DA599B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929A612E8DA2295306DB29962E3DD3CE /* Build configuration list for PBXNativeTarget "AGEmojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8EC285009B9E68F0F8CE162444F3E1 /* Debug */,
+				77920BC4C19E82D7F42D12FE07E5765D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9627EC785F286610EDE924A1E263062D /* Build configuration list for PBXNativeTarget "Pods-Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1386B00AEE877984D375D1EF856588E1 /* Debug */,
+				0C9EC67D87CEA69057FEF4DB788325B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
